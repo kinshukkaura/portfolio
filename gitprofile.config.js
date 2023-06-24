@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'kinshukkaura', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -32,34 +32,31 @@ const config = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
+    'Python',
+    'R',
+    'Tableau',
+    '',
     'Node.js',
     'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Spark',
+    'Kafka',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Deutsche Bank',
+      position: 'Data Science Researcher',
+      from: 'March 2023',
       to: 'Present',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'Chegg India',
+      position: 'Statistics Subject Matter Expert',
+      from: 'Oct 2022',
+      to: 'April 2023',
       companyLink: 'https://example.com',
     },
   ],
@@ -73,16 +70,16 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'London School of Economics',
+      degree: 'MSc in Data Science',
+      from: 'Sept 2022',
+      to: 'Sept 2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Delhi',
+      degree: 'BSc (Hons) Statistics',
+      from: '2019',
+      to: '2022',
     },
   ],
 
@@ -118,7 +115,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'coffee',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
