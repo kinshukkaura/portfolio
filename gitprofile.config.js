@@ -78,26 +78,41 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Home Credit Risk Model Stability - Kaggle Competition',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Modelling default risk',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
     {
-      title: 'Project Name',
+      title: 'Accuracy of Part of Speech Tagging Algorithms',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'A Design of Experiments Paper, analysing the performance and estimating the accuracy of Part-of-Speech tagging techniques tested on newspaper articles.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
+    {
+      title: 'IPL Auction Pricing Prediction',
+      description:
+        'Scraping and analysing IPL data (2013-2022) to predict auction prices for 2023 using boosting machines in Python.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
+    },
+    {
+      title: 'Effects of Income Inequality on Economic Growth of Developing Countries',
+      description:
+        'Explained the nuanced effects of income disparity affecting growth, offering valuable insights into the trajectory of developing economies.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
+      
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 2, // How many posts to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -166,12 +181,5 @@ const config = {
     },
   },
 
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
-};
 
 export default config;
