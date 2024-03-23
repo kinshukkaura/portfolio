@@ -11,18 +11,8 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
+    linkedin: 'www.linkedin.com/in/kinshuk31',
     instagram: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // format: userid/username
-    skype: '',
-    telegram: '',
     website: 'https://arifszn.com',
     phone: '',
     email: 'arifulalamszn@gmail.com',
@@ -33,13 +23,10 @@ const config = {
   },
   skills: [
     'Python',
-    'R',
+    'SQL',
+    'C++',
     'Tableau',
-    '',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'R',
     'Git',
     'Spark',
     'Kafka',
@@ -47,11 +34,16 @@ const config = {
   experiences: [
     {
       company: 'Deutsche Bank',
-      position: 'Data Science Researcher',
+      position: 'Graduate Researcher',
       from: 'March 2023',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      to: 'September 2023',
     },
+    {
+      company: 'Deutsche Bank',
+      position: 'Data Scientist',
+      from: 'November 2022',
+      to: 'February 2023',
+    }
     {
       company: 'Chegg India',
       position: 'Statistics Subject Matter Expert',
