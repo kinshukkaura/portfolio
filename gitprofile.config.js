@@ -39,11 +39,11 @@ const config = {
       to: 'September 2023',
     },
     {
-      company: 'Deutsche Bank',
+      company: 'Pareto Economics',
       position: 'Data Scientist',
       from: 'November 2022',
       to: 'February 2023',
-    }
+    },
     {
       company: 'Chegg India',
       position: 'Statistics Subject Matter Expert',
