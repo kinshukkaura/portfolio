@@ -180,6 +180,5 @@ const config = {
       '--rounded-btn': '3rem',
     },
   },
-
-
+};
 export default config;
