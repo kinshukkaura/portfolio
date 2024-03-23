@@ -12,14 +12,13 @@ const config = {
   },
   social: {
     linkedin: 'www.linkedin.com/in/kinshuk31',
-    instagram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    github: 'https://github.com/kinshukkaura',
+    phone: '07436706810',
+    email: 'kinshuk57@outlook.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      , // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -30,6 +29,7 @@ const config = {
     'Git',
     'Spark',
     'Kafka',
+    'Google Cloud',
   ],
   experiences: [
     {
@@ -80,7 +80,7 @@ const config = {
     {
       title: 'Home Credit Risk Model Stability - Kaggle Competition',
       description:
-        'Modelling default risk',
+        'Modelling default risk.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
@@ -101,7 +101,7 @@ const config = {
     {
       title: 'Effects of Income Inequality on Economic Growth of Developing Countries',
       description:
-        'Explained the nuanced effects of income disparity affecting growth, offering valuable insights into the trajectory of developing economies.',
+        'An Econometrics Report, explaining the nuanced effects of income disparity affecting growth and offering valuable insights into the trajectory of developing economies.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
       
