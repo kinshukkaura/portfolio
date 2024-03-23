@@ -16,10 +16,10 @@ const config = {
     phone: '07436706810',
     email: 'kinshuk57@outlook.com',
   },
-  resume: {
-    fileUrl:
-       // Empty fileUrl will hide the `Download Resume` button.
-  },
+  // resume: {
+  //   fileUrl:
+  //      // Empty fileUrl will hide the `Download Resume` button.
+  // },
   skills: [
     'Python',
     'SQL',
